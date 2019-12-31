@@ -1,0 +1,99 @@
+import { Meta, Story, Preview, Props } from "@storybook/addon-docs/blocks";
+import Component from "..";
+import { Demo, Default, Sides, Spacing, Shorthands, Negative, Margins, Sizes, Centered } from "./stories";
+
+<!-- ⚙️ Elements -->
+<!-- 🔨 Custom -->
+<!-- 📺 Views -->
+
+<Meta title="👽 Experimental/Position" />
+
+# Position
+
+...
+
+- [API](#api)
+- [Tests](#tests)
+
+<Preview>
+	<Story name="Demo">
+		<Demo />
+	</Story>
+</Preview>
+
+## API
+
+<Props of={Component} />
+
+## Tests
+
+### Default
+
+...
+
+<Preview>
+	<Story name="Default">
+		<Default />
+	</Story>
+</Preview>
+
+### Spacing
+
+...
+
+<Preview>
+	<Story name="Spacing">
+		<Spacing />
+	</Story>
+</Preview>
+
+
+### Sides
+
+...
+
+<Preview>
+	<Story name="Sides">
+		<Sides />
+	</Story>
+</Preview>
+
+### Shorthands
+
+...
+
+<Preview>
+	<Story name="Shorthands">
+		<Shorthands />
+	</Story>
+</Preview>
+
+### Sizes
+
+...
+
+<Preview>
+	<Story name="Sizes">
+		<Sizes />
+	</Story>
+</Preview>
+
+### Negative
+
+...
+
+<Preview>
+	<Story name="Centered">
+		<Centered />
+	</Story>
+</Preview>
+
+### Negative
+
+...
+
+<Preview>
+	<Story name="Negative">
+		<Negative />
+	</Story>
+</Preview>

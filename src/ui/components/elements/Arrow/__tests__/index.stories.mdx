@@ -1,0 +1,79 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+import Component from '..';
+import { Demo, Default, Minimal, Directions, Change } from './stories';
+
+<Meta title="⚙️ Elements/Arrow" />
+
+# Arrow
+
+An icon component of an arrow, whose direction is determined by the value of the `direction` prop. This means that all arrow components are unified into one component. Furthermore the component also animates the change from one direction to another if the `direction` prop changes.
+
+- [API](#api)
+- [Compatability](#compatability)
+- [Tests](#tests)
+
+<Preview>
+  <Story name="DEMO">
+    <Demo />
+  </Story>
+</Preview>
+
+## API
+
+<Props of={Component} />
+
+## Compatibility
+
+|Browser|Version|Test
+|---|---|---|
+|Internet Explorer|11|UNTESTED
+|Safari|10|UNTESTED
+
+## Tests
+
+### Default
+
+Should render right-facing arrow with a stem.
+
+<Preview>
+  <Story name="Default">
+    <Default />
+  </Story>
+</Preview>
+
+### Minimal
+
+Should render a right-facing arrow without a stem.
+
+<Preview>
+  <Story name="Minimal">
+    <Minimal />
+  </Story>
+</Preview>
+
+### Directions
+
+Should render arrows point in different directions in the following order:
+
+- Right
+- Down
+- Left
+- Up
+
+<Preview>
+  <Story name="Directions">
+    <Directions />
+  </Story>
+</Preview>
+
+### Change
+
+Upon pressing the 'Change' button the first arrow should rotate 90 degrees clockwise (while the second arrow should move counter-clockwise). Make sure that arrow incrementally rotates to the new position (animation).
+
+_NOTE: After completing an entire the entire cycle (360 degress), the arrow will spin all the way back in the opposite direction to 0 degrees._
+
+<Preview>
+  <Story name="Change">
+    <Change />
+  </Story>
+</Preview>

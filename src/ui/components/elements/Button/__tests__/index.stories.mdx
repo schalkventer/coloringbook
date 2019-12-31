@@ -1,0 +1,103 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+import Component from '..';
+import { Demo, Default, Colors, Disabled, Icon, Loading, Actions } from './stories';
+
+<Meta title="⚙️ Elements/Button" />
+
+# Button
+
+Buttons are used to express an action that a user can take (by means of clicking/pressing). This action either makes a change on the current page or navigates the user to a new page.
+
+- [API](#api)
+- [Compatibility](#compatibility)
+- [Tests](#tests)
+
+<Preview>
+  <Story name="DEMO">
+    <Demo />
+  </Story>
+</Preview>
+
+## API
+
+<Props of={Component} />
+
+## Compatibility
+
+|Browser|Version|Test
+|---|---|---|
+|Internet Explorer|11|UNTESTED
+|Safari|10|UNTESTED
+
+## Tests
+
+### Default
+
+Should render a grey, clickable button with _'Hello World!'_ inside it. If pressed it should log the following under Storybook actions: `onClick: (1) [Class]`.
+
+<Preview>
+  <Story name="Default">
+    <Default />
+  </Story>
+</Preview>
+
+### Colors
+
+Should render the default grey button, with the highlighted blue button next to it.
+
+<Preview>
+  <Story name="Colors">
+    <Colors />
+  </Story>
+</Preview>
+
+### Disabled
+
+Should not be clickable and display _'The reason why this is disabled'_ when hovered over.
+<Preview>
+  <Story name="Disabled">
+    <Disabled />
+  </Story>
+</Preview>
+
+### Icon
+
+Should display the following (from left to right):
+
+- A button with only an icon inside
+- A button with an icon and 'Hello World!' inside. The icon should be smaller than the first instance and be to the left of the text.
+- A button with an icon and 'Hello World!' inside. The icon should be smaller than the first instance and be to the right of the text.
+
+<Preview>
+  <Story name="Icon">
+    <Icon />
+  </Story>
+</Preview>
+
+### Loading
+
+Should display the following (from left to right):
+
+- A button with spinner inside (never stops)
+- A button that shows a spinner for 1 second when clicked, and then reverts to its original state.
+- A button that shows a spinner indefinitely when clicked.
+
+<Preview>
+  <Story name="Loading">
+    <Loading />
+  </Story>
+</Preview>
+
+### Actions
+
+Should display the following (from left to right):
+
+- Should log an `'onClick'` action in the Storybook actions logger.
+- Should attempt to navigate the frame to `/example`, so should show `'Cannot GET /example'` when clicked.
+- Should open the following URL in a new tab: `https://www.google.com/`.
+
+<Preview>
+  <Story name="Actions">
+    <Actions />
+  </Story>
+</Preview>
