@@ -10,22 +10,22 @@
 
 ## Overview
 
-At the moment Coloringbook is only available for Create React App, however support for Gatsby and NextJS is in the pipeline.
+_NOTE: At the moment Coloringbook is only available for Create React App, however support for Gatsby and NextJS is in the pipeline._
 
 ### Features
 
-- 📓 The core [Storybook for React library](https://storybook.js.org/docs/guides/guide-react/) with various addons.
-- 📚 Uses [Material UI](https://material-ui.com/) under the hood.
-- 💾 Ready-to-go [MDX](https://mdxjs.com/) documentation for your project.
-- 🗺 Various documentation templates to document components however you want.
-- 🚥 Automatic [Jest Snapshot](https://jestjs.io/docs/en/snapshot-testing) testing.
-- 🏆 Reporting test results in the documentation itself.
-- 🎯 Displaying browser support on a per component basis.
+- 📓 Includes the core [Storybook for React library](https://storybook.js.org/docs/guides/guide-react/), as well as various addons.
+- 🚀 Supports [Test-driven Development](https://en.wikipedia.org/wiki/Test-driven_development) from all the way from start to finish.
+- 📚 Uses the [Material UI](https://material-ui.com/) component-library, configured to work with [Styled Components](https://www.styled-components.com/).
+- ✨ Includes various [MDX](https://mdxjs.com/) templates to easily bootstrap documentation.
+- 🚥 Built-in [Jest Snapshot](https://jestjs.io/docs/en/snapshot-testing) testing.
+- 🏆 Displays all tests results in your documentation itself.
+- 🎯 Able to indicate browser support on a per component basis.
 - 🗜 Static type-checking with [TypeScript](https://www.typescriptlang.org/).
-- 🎨 Existing components to document [design tokens](https://uxdesign.cc/design-tokens-for-dummies-8acebf010d71?gi=334353308145) used in the project.
+- 🎨 Includes tools to document your [design tokens](https://uxdesign.cc/design-tokens-for-dummies-8acebf010d71?gi=334353308145).
 - 📜 [VS Code snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets) corresponing to the existing project conventions.
-- 📐 Various component templates to be used with [Blueprint](https://marketplace.visualstudio.com/items?itemName=teamchilla.blueprint)
+- 📐 Various component templates for use with [Blueprint](https://marketplace.visualstudio.com/items?itemName=teamchilla.blueprint)
 - ☂️ Watertight linting with a collection of popular [ESLint](https://eslint.org/) and [Stylelint](https://stylelint.io/) rules.
-- 🤖 Git hooks to ensure that all tests and linting pass upon commits.
-- 🐶 Repo is documented with Coloringbook itself ([eating its own dog food](https://en.wikipedia.org/wiki/Eating_your_own_dog_food)!)
-- 🔌 Built to customize/extend according to your needs.
+- 🤖 Pre-configured Git hooks to ensure that all tests pass upon committing.
+- 🐶 Tooling is documented with Coloringbook itself ([eating its own dog food](https://en.wikipedia.org/wiki/Eating_your_own_dog_food)!)
+- 🔌 Built to customize/extend according to your needs via `coloringbook` in `package.json` or an seperate config file.
