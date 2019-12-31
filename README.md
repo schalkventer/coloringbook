@@ -6,8 +6,7 @@
 
 [![](https://img.shields.io/badge/slack-@zatech/%23storybook-purple.svg?logo=slack)](https://zatech.github.io) [![](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![](https://img.shields.io/badge/License-CC%20BY‒SA‒4%2E0-yellow.svg)](https://creativecommons.org/licenses/by-sa/4.0/) 
 
-
-**An opinionated, batteries-included Storybook design-system for use in React projects.**
+**An opinionated, batteries-included UI framework built on Storybook and React.**
 
 ## Overview
 
