@@ -1,5 +1,6 @@
 import { Meta, Story, Preview, Props } from "@storybook/addon-docs/blocks";
 import Component from "..";
+import { Tests } from '../../../custom';
 import { Demo, Default, Minimal, Directions, Change } from "./stories";
 
 <!-- ⚙️ Elements -->
@@ -13,8 +14,9 @@ import { Demo, Default, Minimal, Directions, Change } from "./stories";
 ...
 
 - [API](#api)
-- [Compatability](#compatability)
-- [Tests](#tests)
+- [Browser Compatability](#browser-compatability)
+- [Unit Tests](#unit-tests)
+- [Visual Tests](#visual-tests)
 
 <Preview>
 	<Story name="Demo">
@@ -26,14 +28,18 @@ import { Demo, Default, Minimal, Directions, Change } from "./stories";
 
 <Props of={Component} />
 
-## Compatability
+## Browser Compatibility
 
 |Browser|Version|Test
 |---|---|---|
 |Internet Explorer|11|UNTESTED
 |Safari|10|UNTESTED
 
-## Tests
+## Unit Tests
+
+<Tests type="Experimental" name="{{pascalCase name}}"/>
+
+## Visual Tests
 
 ### Default
 
