@@ -16,6 +16,7 @@ At the moment Coloringbook is only available for Create React App, however suppo
 ### Features
 
 - 📓 The core [Storybook for React library](https://storybook.js.org/docs/guides/guide-react/) with various addons.
+- 🚀 Supports [Test-driven Development](https://en.wikipedia.org/wiki/Test-driven_development) from start to finish.
 - 📚 Uses [Material UI](https://material-ui.com/) under the hood.
 - 💾 Ready-to-go [MDX](https://mdxjs.com/) documentation for your project.
 - 🗺 Various documentation templates to document components however you want.
