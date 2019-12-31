@@ -2,4 +2,4 @@
 
 `0.0.1`
 
-A standardised, batteries-included implementation of Storybook to be used in React projects.
+An opinionated, batteries-included implementation of Storybook for use in React projects.
