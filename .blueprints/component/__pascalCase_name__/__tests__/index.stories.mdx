@@ -1,0 +1,46 @@
+import { Meta, Story, Preview, Props } from "@storybook/addon-docs/blocks";
+import Component from "..";
+import { Demo, Default, Minimal, Directions, Change } from "./stories";
+
+<!-- ⚙️ Elements -->
+<!-- 🔨 Custom -->
+<!-- 📺 Views -->
+
+<Meta title="👽 Experimental/{{pascalCase name}}" />
+
+# {{pascalCase name}}
+
+...
+
+- [API](#api)
+- [Compatability](#compatability)
+- [Tests](#tests)
+
+<Preview>
+	<Story name="Demo">
+		<Demo />
+	</Story>
+</Preview>
+
+## API
+
+<Props of={Component} />
+
+## Compatability
+
+|Browser|Version|Test
+|---|---|---|
+|Internet Explorer|11|UNTESTED
+|Safari|10|UNTESTED
+
+## Tests
+
+### Default
+
+...
+
+<Preview>
+	<Story name="Default">
+		<Default />
+	</Story>
+</Preview>
