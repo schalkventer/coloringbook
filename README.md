@@ -11,7 +11,7 @@
 
 ## Overview
 
-At the moment Coloringbook is only available for Create React App, however support for Gatsby and NextJS is in the pipeline.
+_NOTE: At the moment Coloringbook is only available for Create React App, however support for Gatsby and NextJS is in the pipeline._
 
 ### Features
 
