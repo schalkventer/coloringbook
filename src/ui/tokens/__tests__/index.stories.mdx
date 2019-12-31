@@ -1,0 +1,84 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+import {
+  Colors,
+  Spacing,
+  Edges,
+  Fonts,
+  FontSizes,
+  FontWeights,
+  LineHeights,
+  Animations,
+} from './stories';
+
+<Meta title="Docs/Conventions/Tokens" />
+
+# Tokens
+
+The term 'token' or 'design token' is used in this project in accordance with general UI parlance, as outlined by the Salesforce team in their [Lightning Design System](https://www.lightningdesignsystem.com/design-tokens/). I.e:
+
+> Design tokens are the visual design atoms of the design system — specifically, they are named entities that store visual design attributes. We use them in place of hard-coded values (such as hex values for color or pixel values for spacing) in order to maintain a scalable and consistent visual system for UI development.
+
+These include things like colors, font-sizes, spacing and border-radii. You can think of these as things that would have previously been stored in `.scss` variables (for example: `$primary_color: '#aacc88'`).
+
+- Basic
+  - [Colors](#colors)
+  - [Spacing](#spacing)
+  - [Edges](#edges)
+  - [Animations](#animations)
+- Typography
+  - [Fonts](#fonts)
+  - [Sizes](#sizes)
+  - [Weights](#weights)
+  - [Line Heights](#line-heigts)
+
+## Basic
+
+### Colors
+
+<Preview>
+  <Colors />
+</Preview>
+
+### Spacing
+
+<Preview>
+  <Spacing />
+</Preview>
+
+### Edges
+
+<Preview>
+  <Edges />
+</Preview>
+
+### Animations
+
+<Preview>
+  <Animations />
+</Preview>
+
+## Typography
+
+### Fonts
+
+<Preview>
+  <Fonts />
+</Preview>
+
+### Sizes
+
+<Preview>
+  <FontSizes />
+</Preview>
+
+### Weights
+
+<Preview>
+  <FontWeights />
+</Preview>
+
+### Line Heights
+
+<Preview>
+  <LineHeights />
+</Preview>
