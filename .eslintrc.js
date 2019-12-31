@@ -1,5 +1,5 @@
 module.exports = {
-  parser: "@typescript-eslint/parser",
+  parser: '@typescript-eslint/parser',
   extends: [
     'plugin:@typescript-eslint/recommended',
     'airbnb',
@@ -11,7 +11,7 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 2018,
-    sourceType: "module"
+    sourceType: 'module',
   },
   plugins: [
     'react',
@@ -40,8 +40,9 @@ module.exports = {
     'react/jsx-one-expression-per-line': 'off', // Conflicts with Prettier.
     'react/prop-types': 'off', // Not needed when using TypeScript.
     'react/jsx-filename-extension': ['error', { extensions: ['.tsx'] }], // Prefer TypeScript `.tsx.` over `.jsx`.
-    "import/prefer-default-export": 'off',
-    "import/extensions": 'off',
-    'jsx-a11y/img-has-alt': 'off'
-  }
+    'import/prefer-default-export': 'off',
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
+    'import/extensions': 'off',
+  },
 };

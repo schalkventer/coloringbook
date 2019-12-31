@@ -4,6 +4,7 @@
   "dependencies": {
     "@material-ui/core": "^4.2.1",
     "@material-ui/icons": "^3.0.1",
+    "axios": "^0.19.0",
     "polished": "^3.4.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -15,14 +16,19 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "start:ui": "start-storybook -p 9009 -s public",
-    "build:ui": "build-storybook -s public",
-    "test": "jest"
+    "ui": "npm run ui:start",
+    "ui:start": "npm run test:build && start-storybook -p 9009 -s public",
+    "ui:build:": "npm run test:build && build-storybook -s public",
+    "test": "npm test",
+    "test:start": "jest",
+    "test:build": "jest --bail=100 --json --outputFile=./public/jest-results.json ",
+    "test:reset-all-snapshots": "jest -u"
   },
   "devDependencies": {
     "@storybook/addon-a11y": "^5.3.0-rc.0",
     "@storybook/addon-actions": "^5.3.0-rc.0",
     "@storybook/addon-docs": "^5.3.0-rc.0",
+    "@storybook/addon-jest": "^5.2.8",
     "@storybook/addon-knobs": "^5.2.8",
     "@storybook/addon-storysource": "^5.2.8",
     "@storybook/addon-viewport": "^5.3.0-rc.0",

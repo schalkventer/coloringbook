@@ -18,7 +18,7 @@ const testRegex = 'src/.*\\.test\\.(tsx?)';
 /**
  * Folders to ignore when running Jest
  */
-const testPathIgnorePatterns = ['node_modules', '.cache', '.history'];
+const testPathIgnorePatterns = ['node_modules', '.cache', '.history', '__snapshots__'];
 
 /**
  * Configuration file to pass to Jest
