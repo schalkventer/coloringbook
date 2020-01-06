@@ -1,0 +1,805 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UI Components Elements Position snapshots Change 1`] = `
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: autopx;
+  height: autopx;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  margin-top: -16px;
+  margin-right: -16px;
+  margin-bottom: -16px;
+  margin-left: -16px;
+}
+
+.c0 {
+  border: 1px dashed blue;
+  display: inline-block;
+}
+
+.c2 {
+  background: yellow;
+  width: 100%;
+  mix-blend-mode: multiply;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    height="auto"
+    width="auto"
+  >
+    <div
+      className="c2"
+    >
+      Hello World!
+    </div>
+  </div>
+</div>
+`;
+
+exports[`UI Components Elements Position snapshots Default 1`] = `
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: autopx;
+  height: autopx;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+.c0 {
+  border: 1px dashed blue;
+  display: inline-block;
+}
+
+.c2 {
+  background: yellow;
+  width: 100%;
+  mix-blend-mode: multiply;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    height="auto"
+    width="auto"
+  >
+    <div
+      className="c2"
+    >
+      Hello World!
+    </div>
+  </div>
+</div>
+`;
+
+exports[`UI Components Elements Position snapshots Demo 1`] = `
+Array [
+  .c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: autopx;
+  height: autopx;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding-top: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+}
+
+.c0 {
+  border: 1px dashed blue;
+  display: inline-block;
+}
+
+.c2 {
+  background: yellow;
+  width: 100%;
+  mix-blend-mode: multiply;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      height="auto"
+      width="auto"
+    >
+      <div
+        className="c2"
+      >
+        Hello World!
+      </div>
+    </div>
+  </div>,
+  .c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: autopx;
+  height: autopx;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding-top: 16px;
+  padding-right: 0;
+  padding-bottom: 16px;
+  padding-left: 0;
+}
+
+.c0 {
+  border: 1px dashed blue;
+  display: inline-block;
+}
+
+.c2 {
+  background: yellow;
+  width: 100%;
+  mix-blend-mode: multiply;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      height="auto"
+      width="auto"
+    >
+      <div
+        className="c2"
+      >
+        Hello World!
+      </div>
+    </div>
+  </div>,
+  .c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: autopx;
+  height: autopx;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding-top: 0;
+  padding-right: 16px;
+  padding-bottom: 0;
+  padding-left: 16px;
+}
+
+.c0 {
+  border: 1px dashed blue;
+  display: inline-block;
+}
+
+.c2 {
+  background: yellow;
+  width: 100%;
+  mix-blend-mode: multiply;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      height="auto"
+      width="auto"
+    >
+      <div
+        className="c2"
+      >
+        Hello World!
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`UI Components Elements Position snapshots Directions 1`] = `
+Array [
+  .c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: autopx;
+  height: autopx;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding-top: 16px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+.c0 {
+  border: 1px dashed blue;
+  display: inline-block;
+}
+
+.c2 {
+  background: yellow;
+  width: 100%;
+  mix-blend-mode: multiply;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      height="auto"
+      width="auto"
+    >
+      <div
+        className="c2"
+      >
+        Hello World!
+      </div>
+    </div>
+  </div>,
+  .c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: autopx;
+  height: autopx;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding-top: 0;
+  padding-right: 16px;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+.c0 {
+  border: 1px dashed blue;
+  display: inline-block;
+}
+
+.c2 {
+  background: yellow;
+  width: 100%;
+  mix-blend-mode: multiply;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      height="auto"
+      width="auto"
+    >
+      <div
+        className="c2"
+      >
+        Hello World!
+      </div>
+    </div>
+  </div>,
+  .c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: autopx;
+  height: autopx;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 16px;
+  padding-left: 0;
+}
+
+.c0 {
+  border: 1px dashed blue;
+  display: inline-block;
+}
+
+.c2 {
+  background: yellow;
+  width: 100%;
+  mix-blend-mode: multiply;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      height="auto"
+      width="auto"
+    >
+      <div
+        className="c2"
+      >
+        Hello World!
+      </div>
+    </div>
+  </div>,
+  .c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: autopx;
+  height: autopx;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 16px;
+}
+
+.c0 {
+  border: 1px dashed blue;
+  display: inline-block;
+}
+
+.c2 {
+  background: yellow;
+  width: 100%;
+  mix-blend-mode: multiply;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      height="auto"
+      width="auto"
+    >
+      <div
+        className="c2"
+      >
+        Hello World!
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`UI Components Elements Position snapshots Minimal 1`] = `
+Array [
+  .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  height: autopx;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+.c1 {
+  background: yellow;
+  width: 100%;
+  mix-blend-mode: multiply;
+}
+
+<div>
+    <div
+      className="c0"
+      height="auto"
+      width="full"
+    >
+      <div
+        className="c1"
+      >
+        Hello World!
+      </div>
+    </div>
+  </div>,
+  .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: autopx;
+  height: autopx;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+.c1 {
+  background: yellow;
+  width: 100%;
+  mix-blend-mode: multiply;
+}
+
+<div>
+    <div
+      className="c0"
+      height="auto"
+      width="auto"
+    >
+      <div
+        className="c1"
+      >
+        Hello World!
+      </div>
+    </div>
+  </div>,
+  .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100px;
+  height: autopx;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+.c1 {
+  background: yellow;
+  width: 100%;
+  mix-blend-mode: multiply;
+}
+
+<div>
+    <div
+      className="c0"
+      height="auto"
+      width={100}
+    >
+      <div
+        className="c1"
+      >
+        Hello World!
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`UI Components Elements Position snapshots Spacing 1`] = `
+Array [
+  .c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: autopx;
+  height: autopx;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding-top: 2px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+.c0 {
+  border: 1px dashed blue;
+  display: inline-block;
+}
+
+.c2 {
+  background: yellow;
+  width: 100%;
+  mix-blend-mode: multiply;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      height="auto"
+      width="auto"
+    >
+      <div
+        className="c2"
+      >
+        Hello World!
+      </div>
+    </div>
+  </div>,
+  .c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: autopx;
+  height: autopx;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding-top: 8px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+.c0 {
+  border: 1px dashed blue;
+  display: inline-block;
+}
+
+.c2 {
+  background: yellow;
+  width: 100%;
+  mix-blend-mode: multiply;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      height="auto"
+      width="auto"
+    >
+      <div
+        className="c2"
+      >
+        Hello World!
+      </div>
+    </div>
+  </div>,
+  .c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: autopx;
+  height: autopx;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding-top: 16px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+.c0 {
+  border: 1px dashed blue;
+  display: inline-block;
+}
+
+.c2 {
+  background: yellow;
+  width: 100%;
+  mix-blend-mode: multiply;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      height="auto"
+      width="auto"
+    >
+      <div
+        className="c2"
+      >
+        Hello World!
+      </div>
+    </div>
+  </div>,
+  .c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: autopx;
+  height: autopx;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding-top: 32px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+.c0 {
+  border: 1px dashed blue;
+  display: inline-block;
+}
+
+.c2 {
+  background: yellow;
+  width: 100%;
+  mix-blend-mode: multiply;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      height="auto"
+      width="auto"
+    >
+      <div
+        className="c2"
+      >
+        Hello World!
+      </div>
+    </div>
+  </div>,
+  .c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: autopx;
+  height: autopx;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding-top: 150px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+.c0 {
+  border: 1px dashed blue;
+  display: inline-block;
+}
+
+.c2 {
+  background: yellow;
+  width: 100%;
+  mix-blend-mode: multiply;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      height="auto"
+      width="auto"
+    >
+      <div
+        className="c2"
+      >
+        Hello World!
+      </div>
+    </div>
+  </div>,
+]
+`;

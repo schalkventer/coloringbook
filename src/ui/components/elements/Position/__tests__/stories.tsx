@@ -11,6 +11,7 @@ const Wrapper = styled.div`
 const Inner = styled.div`
   background: yellow;
   width: 100%;
+  mix-blend-mode: multiply;
 `;
 
 export const Demo = (): JSX.Element => (
@@ -122,17 +123,16 @@ export const Sizes = (): JSX.Element => (
     </div>
 
     <div>
-      <Wrapper />
       <Position width="auto">
         <Inner>Hello World!</Inner>
       </Position>
     </div>
 
-    <Wrapper>
-      <Position width={250}>
+    <div>
+      <Position width={100}>
         <Inner>Hello World!</Inner>
       </Position>
-    </Wrapper>
+    </div>
   </Fragment>
 );
 
@@ -147,9 +147,7 @@ export const Centered = (): JSX.Element => (
 export const Negative = (): JSX.Element => (
   <Wrapper>
     <Position all="standard" isNegative>
-      <div style={{ padding: '1rem', border: '1px solid blue', margin: '0.5rem' }}>
-        Hello World!
-      </div>
+      <Inner>Hello World!</Inner>
     </Position>
   </Wrapper>
 );

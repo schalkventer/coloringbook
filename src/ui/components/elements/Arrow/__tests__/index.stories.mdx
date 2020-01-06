@@ -1,5 +1,6 @@
 import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
 import Component from '..';
+import { Tests } from '../../../elements';
 import { Demo, Default, Minimal, Directions, Change } from './stories';
 
 <Meta title="⚙️ Elements/Arrow" />
@@ -9,8 +10,9 @@ import { Demo, Default, Minimal, Directions, Change } from './stories';
 An icon component of an arrow, whose direction is determined by the value of the `direction` prop. This means that all arrow components are unified into one component. Furthermore the component also animates the change from one direction to another if the `direction` prop changes.
 
 - [API](#api)
-- [Compatability](#compatability)
-- [Tests](#tests)
+- [Browser Compatibility](#compatibility)
+- [Unit Tests](#unit-tests)
+- [Visual Tests](#tests)
 
 <Preview>
   <Story name="DEMO">
@@ -22,14 +24,18 @@ An icon component of an arrow, whose direction is determined by the value of the
 
 <Props of={Component} />
 
-## Compatibility
+## Browser Compatibility
 
 |Browser|Version|Test
 |---|---|---|
 |Internet Explorer|11|UNTESTED
 |Safari|10|UNTESTED
 
-## Tests
+## Unit Tests
+
+<Tests category="Elements" name="Arrow"/>
+
+## Visual Tests
 
 ### Default
 

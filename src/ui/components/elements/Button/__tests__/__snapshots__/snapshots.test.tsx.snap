@@ -1,10 +1,38 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Actions 1`] = `
+exports[`UI Components Elements Button snapshots Actions 1`] = `
 Array [
-  <div
+  .c1.c1 {
+  position: relative;
+  background: #e0e0e0;
+  color: #424242;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 8px 16px;
+  opacity: 1;
+}
+
+.c1.c1:hover {
+  background: #d3d3d3;
+}
+
+.c0 {
+  display: inline-block;
+}
+
+<div
     aria-describedby={null}
-    className="sc-htoDjs cvnhzW"
+    className="c0"
     onBlur={[Function]}
     onFocus={[Function]}
     onMouseLeave={[Function]}
@@ -14,7 +42,7 @@ Array [
     title=""
   >
     <button
-      className="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bZQynM cRWftn"
+      className="MuiButtonBase-root MuiButton-root MuiButton-contained c1"
       disabled={false}
       onBlur={[Function]}
       onClick={[Function]}
@@ -44,9 +72,37 @@ Array [
       />
     </button>
   </div>,
-  <div
+  .c1.c1 {
+  position: relative;
+  background: #e0e0e0;
+  color: #424242;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 8px 16px;
+  opacity: 1;
+}
+
+.c1.c1:hover {
+  background: #d3d3d3;
+}
+
+.c0 {
+  display: inline-block;
+}
+
+<div
     aria-describedby={null}
-    className="sc-htoDjs cvnhzW"
+    className="c0"
     onBlur={[Function]}
     onFocus={[Function]}
     onMouseLeave={[Function]}
@@ -57,7 +113,7 @@ Array [
   >
     <a
       aria-disabled={false}
-      className="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bZQynM cRWftn"
+      className="MuiButtonBase-root MuiButton-root MuiButton-contained c1"
       href="/example"
       onBlur={[Function]}
       onClick={[Function]}
@@ -87,9 +143,37 @@ Array [
       />
     </a>
   </div>,
-  <div
+  .c1.c1 {
+  position: relative;
+  background: #e0e0e0;
+  color: #424242;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 8px 16px;
+  opacity: 1;
+}
+
+.c1.c1:hover {
+  background: #d3d3d3;
+}
+
+.c0 {
+  display: inline-block;
+}
+
+<div
     aria-describedby={null}
-    className="sc-htoDjs cvnhzW"
+    className="c0"
     onBlur={[Function]}
     onFocus={[Function]}
     onMouseLeave={[Function]}
@@ -100,7 +184,7 @@ Array [
   >
     <a
       aria-disabled={false}
-      className="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bZQynM cRWftn"
+      className="MuiButtonBase-root MuiButton-root MuiButton-contained c1"
       href="https://www.google.com"
       onBlur={[Function]}
       onClick={[Function]}
@@ -133,11 +217,39 @@ Array [
 ]
 `;
 
-exports[`Colors 1`] = `
+exports[`UI Components Elements Button snapshots Colors 1`] = `
 Array [
-  <div
+  .c1.c1 {
+  position: relative;
+  background: #e0e0e0;
+  color: #424242;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 8px 16px;
+  opacity: 1;
+}
+
+.c1.c1:hover {
+  background: #d3d3d3;
+}
+
+.c0 {
+  display: inline-block;
+}
+
+<div
     aria-describedby={null}
-    className="sc-htoDjs cvnhzW"
+    className="c0"
     onBlur={[Function]}
     onFocus={[Function]}
     onMouseLeave={[Function]}
@@ -147,7 +259,7 @@ Array [
     title=""
   >
     <button
-      className="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bZQynM cRWftn"
+      className="MuiButtonBase-root MuiButton-root MuiButton-contained c1"
       disabled={false}
       onBlur={[Function]}
       onClick={[Function]}
@@ -177,9 +289,37 @@ Array [
       />
     </button>
   </div>,
-  <div
+  .c1.c1 {
+  position: relative;
+  background: #2185d0;
+  color: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 8px 16px;
+  opacity: 1;
+}
+
+.c1.c1:hover {
+  background: #1e77ba;
+}
+
+.c0 {
+  display: inline-block;
+}
+
+<div
     aria-describedby={null}
-    className="sc-htoDjs cvnhzW"
+    className="c0"
     onBlur={[Function]}
     onFocus={[Function]}
     onMouseLeave={[Function]}
@@ -189,7 +329,7 @@ Array [
     title=""
   >
     <button
-      className="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bZQynM fUzIXl"
+      className="MuiButtonBase-root MuiButton-root MuiButton-contained c1"
       disabled={false}
       onBlur={[Function]}
       onClick={[Function]}
@@ -222,10 +362,38 @@ Array [
 ]
 `;
 
-exports[`Demo 1`] = `
+exports[`UI Components Elements Button snapshots Default 1`] = `
+.c1.c1 {
+  position: relative;
+  background: #e0e0e0;
+  color: #424242;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 8px 16px;
+  opacity: 1;
+}
+
+.c1.c1:hover {
+  background: #d3d3d3;
+}
+
+.c0 {
+  display: inline-block;
+}
+
 <div
   aria-describedby={null}
-  className="sc-htoDjs cvnhzW"
+  className="c0"
   onBlur={[Function]}
   onFocus={[Function]}
   onMouseLeave={[Function]}
@@ -235,7 +403,7 @@ exports[`Demo 1`] = `
   title=""
 >
   <button
-    className="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bZQynM cRWftn"
+    className="MuiButtonBase-root MuiButton-root MuiButton-contained c1"
     disabled={false}
     onBlur={[Function]}
     onClick={[Function]}
@@ -267,10 +435,38 @@ exports[`Demo 1`] = `
 </div>
 `;
 
-exports[`Disabled 1`] = `
+exports[`UI Components Elements Button snapshots Disabled 1`] = `
+.c1.c1 {
+  position: relative;
+  background: #e0e0e0;
+  color: #424242;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 8px 16px;
+  opacity: 0.75;
+}
+
+.c1.c1:hover {
+  background: #d3d3d3;
+}
+
+.c0 {
+  display: inline-block;
+}
+
 <div
   aria-describedby={null}
-  className="sc-htoDjs cvnhzW"
+  className="c0"
   onBlur={[Function]}
   onFocus={[Function]}
   onMouseLeave={[Function]}
@@ -280,7 +476,7 @@ exports[`Disabled 1`] = `
   title="The reason why this is disabled"
 >
   <button
-    className="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bZQynM hnQJdt Mui-disabled Mui-disabled"
+    className="MuiButtonBase-root MuiButton-root MuiButton-contained c1 Mui-disabled Mui-disabled"
     disabled={true}
     onBlur={[Function]}
     onClick={[Function]}
@@ -309,7 +505,40 @@ exports[`Disabled 1`] = `
 </div>
 `;
 
-exports[`Icon 1`] = `
+exports[`UI Components Elements Button snapshots Icon 1`] = `
+.c1.c1 {
+  position: relative;
+  background: #e0e0e0;
+  color: #424242;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 8px 16px;
+  opacity: 1;
+}
+
+.c1.c1:hover {
+  background: #d3d3d3;
+}
+
+.c2 {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.c0 {
+  display: inline-block;
+}
+
 <div
   style={
     Object {
@@ -319,7 +548,7 @@ exports[`Icon 1`] = `
 >
   <div
     aria-describedby={null}
-    className="sc-htoDjs cvnhzW"
+    className="c0"
     onBlur={[Function]}
     onFocus={[Function]}
     onMouseLeave={[Function]}
@@ -329,7 +558,7 @@ exports[`Icon 1`] = `
     title=""
   >
     <button
-      className="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bZQynM cRWftn"
+      className="MuiButtonBase-root MuiButton-root MuiButton-contained c1"
       disabled={false}
       onBlur={[Function]}
       onClick={[Function]}
@@ -380,7 +609,7 @@ exports[`Icon 1`] = `
   </div>
   <div
     aria-describedby={null}
-    className="sc-htoDjs cvnhzW"
+    className="c0"
     onBlur={[Function]}
     onFocus={[Function]}
     onMouseLeave={[Function]}
@@ -390,7 +619,7 @@ exports[`Icon 1`] = `
     title=""
   >
     <button
-      className="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bZQynM cRWftn"
+      className="MuiButtonBase-root MuiButton-root MuiButton-contained c1"
       disabled={false}
       onBlur={[Function]}
       onClick={[Function]}
@@ -434,7 +663,7 @@ exports[`Icon 1`] = `
           />
         </svg>
         <span
-          className="sc-gzVnrw cDMSXN"
+          className="c2"
         >
           Hello World!
         </span>
@@ -446,7 +675,7 @@ exports[`Icon 1`] = `
   </div>
   <div
     aria-describedby={null}
-    className="sc-htoDjs cvnhzW"
+    className="c0"
     onBlur={[Function]}
     onFocus={[Function]}
     onMouseLeave={[Function]}
@@ -456,7 +685,7 @@ exports[`Icon 1`] = `
     title=""
   >
     <button
-      className="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bZQynM cRWftn"
+      className="MuiButtonBase-root MuiButton-root MuiButton-contained c1"
       disabled={false}
       onBlur={[Function]}
       onClick={[Function]}
@@ -478,7 +707,7 @@ exports[`Icon 1`] = `
         className="MuiButton-label"
       >
         <span
-          className="sc-gzVnrw cDMSXN"
+          className="c2"
         >
           Hello World!
         </span>
@@ -513,11 +742,65 @@ exports[`Icon 1`] = `
 </div>
 `;
 
-exports[`Loading 1`] = `
+exports[`UI Components Elements Button snapshots Loading 1`] = `
 Array [
-  <div
+  .c1.c1 {
+  position: relative;
+  background: #e0e0e0;
+  color: #424242;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 8px 16px;
+  opacity: 0.75;
+}
+
+.c1.c1:hover {
+  background: #d3d3d3;
+}
+
+.c0 {
+  display: inline-block;
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #e0e0e0;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.c3.c3 {
+  color: #424242;
+}
+
+<div
     aria-describedby={null}
-    className="sc-htoDjs cvnhzW"
+    className="c0"
     onBlur={[Function]}
     onFocus={[Function]}
     onMouseLeave={[Function]}
@@ -527,7 +810,7 @@ Array [
     title=""
   >
     <button
-      className="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bZQynM hnQJdt Mui-disabled Mui-disabled"
+      className="MuiButtonBase-root MuiButton-root MuiButton-contained c1 Mui-disabled Mui-disabled"
       disabled={true}
       onBlur={[Function]}
       onClick={[Function]}
@@ -552,10 +835,10 @@ Array [
           Hello World!
         </span>
         <div
-          className="sc-dnqmqq Fbgdo"
+          className="c2"
         >
           <div
-            className="MuiCircularProgress-root sc-iwsKbI irMHdh MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+            className="MuiCircularProgress-root c3 MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
             role="progressbar"
             style={
               Object {
@@ -584,9 +867,37 @@ Array [
       </span>
     </button>
   </div>,
-  <div
+  .c1.c1 {
+  position: relative;
+  background: #e0e0e0;
+  color: #424242;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 8px 16px;
+  opacity: 1;
+}
+
+.c1.c1:hover {
+  background: #d3d3d3;
+}
+
+.c0 {
+  display: inline-block;
+}
+
+<div
     aria-describedby={null}
-    className="sc-htoDjs cvnhzW"
+    className="c0"
     onBlur={[Function]}
     onFocus={[Function]}
     onMouseLeave={[Function]}
@@ -596,7 +907,7 @@ Array [
     title=""
   >
     <button
-      className="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bZQynM cRWftn"
+      className="MuiButtonBase-root MuiButton-root MuiButton-contained c1"
       disabled={false}
       onBlur={[Function]}
       onClick={[Function]}
@@ -626,9 +937,37 @@ Array [
       />
     </button>
   </div>,
-  <div
+  .c1.c1 {
+  position: relative;
+  background: #e0e0e0;
+  color: #424242;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 8px 16px;
+  opacity: 1;
+}
+
+.c1.c1:hover {
+  background: #d3d3d3;
+}
+
+.c0 {
+  display: inline-block;
+}
+
+<div
     aria-describedby={null}
-    className="sc-htoDjs cvnhzW"
+    className="c0"
     onBlur={[Function]}
     onFocus={[Function]}
     onMouseLeave={[Function]}
@@ -638,7 +977,7 @@ Array [
     title=""
   >
     <button
-      className="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bZQynM cRWftn"
+      className="MuiButtonBase-root MuiButton-root MuiButton-contained c1"
       disabled={false}
       onBlur={[Function]}
       onClick={[Function]}

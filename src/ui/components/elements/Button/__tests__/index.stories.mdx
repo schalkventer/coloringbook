@@ -1,5 +1,7 @@
 import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
 import Component from '..';
+import { getUnitTestData } from '../../../../helpers/storybook';
+import { Tests } from '../../../elements';
 import { Demo, Default, Colors, Disabled, Icon, Loading, Actions } from './stories';
 
 <Meta title="⚙️ Elements/Button" />
@@ -9,8 +11,9 @@ import { Demo, Default, Colors, Disabled, Icon, Loading, Actions } from './stori
 Buttons are used to express an action that a user can take (by means of clicking/pressing). This action either makes a change on the current page or navigates the user to a new page.
 
 - [API](#api)
-- [Compatibility](#compatibility)
-- [Tests](#tests)
+- [Browser Compatibility](#compatibility)
+- [Unit Tests](#unit-tests)
+- [Visual Tests](#tests)
 
 <Preview>
   <Story name="DEMO">
@@ -22,14 +25,24 @@ Buttons are used to express an action that a user can take (by means of clicking
 
 <Props of={Component} />
 
-## Compatibility
+## Browser Compatibility
 
 |Browser|Version|Test
 |---|---|---|
 |Internet Explorer|11|UNTESTED
 |Safari|10|UNTESTED
 
-## Tests
+## Unit Tests
+
+### Snapshots
+
+<Test getData={getUnitTestData({ category: 'Elements', name: 'Button' })} />
+
+### Helpers
+
+<Test getData={getUnitTestData({ category: 'Elements', name: 'Button', helpers: true })} />
+
+## Visual Tests
 
 ### Default
 

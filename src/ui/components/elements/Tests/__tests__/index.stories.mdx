@@ -1,0 +1,72 @@
+import { Meta, Story, Preview, Props } from "@storybook/addon-docs/blocks";
+import Component from "..";
+import { getUnitTestData } from '../../../../helpers/storybook';
+import { Demo, Default, Loading } from "./stories";
+
+<Meta title="⚙️ Elements/Tests" />
+
+# Tests
+
+**A React component used inside the project documentation to display the state of a specific component's tests.**
+
+It only accepts a single prop, called `getData`. The `getTestData` method from the `src/ui/helpers/storybook` file is usually imported and called (i.e. what is returned from this function call is passed as a prop) if you want to use the results of a Jest test in here. Alternatively, you can pass a custom function that resolves an array of tests (as long as they fit the required scheme in the API below).
+
+_NOTE: This component is intendedto only be used in `.mdx` files. If you are using it outside of an `index.stories.mdx` file then you are most probably using it incorrectly._
+
+
+- [API](#api)
+- [Browser Compatability](#browser-compatability)
+- [Unit Tests](#unit-tests)
+- [Visual Tests](#visual-tests)
+
+<Preview>
+	<Story name="Demo">
+		<Demo />
+	</Story>
+</Preview>
+
+## API
+
+<Props of={Component} />
+
+## Browser Compatability
+
+|Browser|Version|Test
+|---|---|---|
+|Internet Explorer|11|UNTESTED
+|Safari|10|UNTESTED
+
+## Unit Tests
+
+### Snapshots
+
+<Component getData={getUnitTestData({ category: 'Elements', name: 'Tests' })} />
+
+### Helpers
+
+<Component getData={getUnitTestData({ category: 'Elements', name: 'Tests', helpers: true })} />
+
+## Visual Tests
+
+### Default
+
+Should display the following as an unordered list:
+
+-  `☑️ — Example 1`
+-  `🆘 — Example 2`
+
+<Preview>
+	<Story name="Default">
+		<Default />
+	</Story>
+</Preview>
+
+### Loading
+
+Should display an unordered list with a single item: `...`
+
+<Preview>
+	<Story name="Loading">
+		<Loading />
+	</Story>
+</Preview>

@@ -1,0 +1,321 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UI Components Experimental Arrow snapshots Change 1`] = `
+Array [
+  <div>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Change
+    </button>
+  </div>,
+  .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c1 {
+  opacity: 0.2;
+  width: 13px;
+  height: 13px;
+}
+
+<div
+    className="c0"
+    style={
+      Object {
+        "transform": "rotate(0deg)",
+      }
+    }
+  >
+    <svg
+      aria-hidden="true"
+      className="MuiSvgIcon-root c1"
+      focusable="false"
+      role="presentation"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+      />
+    </svg>
+  </div>,
+  .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c1 {
+  opacity: 0.2;
+  width: 13px;
+  height: 13px;
+}
+
+<div
+    className="c0"
+    style={
+      Object {
+        "transform": "rotate(0deg)",
+      }
+    }
+  >
+    <svg
+      aria-hidden="true"
+      className="MuiSvgIcon-root c1"
+      focusable="false"
+      role="presentation"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+      />
+    </svg>
+  </div>,
+]
+`;
+
+exports[`UI Components Experimental Arrow snapshots Default 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c1 {
+  opacity: 0.2;
+  width: 13px;
+  height: 13px;
+}
+
+<div
+  className="c0"
+  style={
+    Object {
+      "transform": "rotate(0deg)",
+    }
+  }
+>
+  <svg
+    aria-hidden="true"
+    className="MuiSvgIcon-root c1"
+    focusable="false"
+    role="presentation"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M0 0h24v24H0z"
+      fill="none"
+    />
+    <path
+      d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`UI Components Experimental Arrow snapshots Directions 1`] = `
+Array [
+  .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c1 {
+  opacity: 0.2;
+  width: 13px;
+  height: 13px;
+}
+
+<div
+    className="c0"
+    style={
+      Object {
+        "transform": "rotate(0deg)",
+      }
+    }
+  >
+    <svg
+      aria-hidden="true"
+      className="MuiSvgIcon-root c1"
+      focusable="false"
+      role="presentation"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+      />
+    </svg>
+  </div>,
+  .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c1 {
+  opacity: 0.2;
+  width: 13px;
+  height: 13px;
+}
+
+<div
+    className="c0"
+    style={
+      Object {
+        "transform": "rotate(90deg)",
+      }
+    }
+  >
+    <svg
+      aria-hidden="true"
+      className="MuiSvgIcon-root c1"
+      focusable="false"
+      role="presentation"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+      />
+    </svg>
+  </div>,
+  .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c1 {
+  opacity: 0.2;
+  width: 13px;
+  height: 13px;
+}
+
+<div
+    className="c0"
+    style={
+      Object {
+        "transform": "rotate(180deg)",
+      }
+    }
+  >
+    <svg
+      aria-hidden="true"
+      className="MuiSvgIcon-root c1"
+      focusable="false"
+      role="presentation"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+      />
+    </svg>
+  </div>,
+  .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c1 {
+  opacity: 0.2;
+  width: 13px;
+  height: 13px;
+}
+
+<div
+    className="c0"
+    style={
+      Object {
+        "transform": "rotate(270deg)",
+      }
+    }
+  >
+    <svg
+      aria-hidden="true"
+      className="MuiSvgIcon-root c1"
+      focusable="false"
+      role="presentation"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+      />
+    </svg>
+  </div>,
+]
+`;
+
+exports[`UI Components Experimental Arrow snapshots Minimal 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c1 {
+  opacity: 0.2;
+  width: 13px;
+  height: 13px;
+}
+
+<div
+  className="c0"
+  style={
+    Object {
+      "transform": "rotate(0deg)",
+    }
+  }
+>
+  <svg
+    aria-hidden="true"
+    className="MuiSvgIcon-root c1"
+    focusable="false"
+    role="presentation"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M5.88 4.12L13.76 12l-7.88 7.88L8 22l10-10L8 2z"
+    />
+    <path
+      d="M0 0h24v24H0z"
+      fill="none"
+    />
+  </svg>
+</div>
+`;

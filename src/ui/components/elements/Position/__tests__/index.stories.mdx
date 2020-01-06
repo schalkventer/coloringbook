@@ -1,0 +1,140 @@
+import { Meta, Story, Preview, Props } from "@storybook/addon-docs/blocks";
+import Component from "..";
+import { getUnitTestData } from '../../../../helpers/storybook';
+import { Tests } from '../../../elements';
+import { Demo, Default, Sides, Spacing, Shorthands, Negative, Margins, Sizes, Centered } from "./stories";
+
+<Meta title="⚙️ Elements/Position" />
+
+# Position
+
+A utility component that does not render anything to the UI, but is intended to wrap existing JSX. This component allows the the addition of padding or margins (even negative if needed) around its wrapping JSX `children` props. In addition, you can also use it as parent with a fixed width/height and position the its `children` accordingly inside it.
+
+- [Usage](#usage)
+- [API](#api)
+- [Browser Compatability](#browser-compatibility)
+- [Unit Tests](#unit-tests)
+- [Visual Tests](#visual-tests)
+
+_NOTE: The yellow background, dashed outline and 'Hello World' text has been added around and insde the component to illustrate it's effects (and is not part of the component itself)_
+
+<Preview>
+	<Story name="Demo">
+		<Demo />
+	</Story>
+</Preview>
+
+## Usage
+
+For example you can do the following:
+
+```jsx
+<Position top="small" bottom="small" left="standard" right="standard">
+	<div>Text here</div>
+</Position>
+```
+
+or:
+
+```jsx
+<Position width="full" height={400} center>
+	<div>Text here</div>
+</Position>
+```
+
+## API
+
+<Props of={Component} />
+
+## Tests
+
+### Snapshots
+
+<Component getData={getUnitTestData({ category: 'Elements', name: 'Position' })} />
+
+### Helpers
+
+<Component getData={getUnitTestData({ category: 'Elements', name: 'Position', helpers: true })} />
+
+### Default
+
+Should render a yellow block with the phrase `Hello World!` inside it. It should also render a dashed blue line that sits against the yellow block.
+
+<Preview>
+	<Story name="Default">
+		<Default />
+	</Story>
+</Preview>
+
+### Spacing
+
+There should be five components that have the same appearance as the above test. However, they should have different amounts of spacing above the yellow block (between the dashed border and yellow block). The amount of spacing in the latter should be arranged ascending from left (least) to right (most).
+
+<Preview>
+	<Story name="Spacing">
+		<Spacing />
+	</Story>
+</Preview>
+
+
+### Sides
+
+Similar to the former, there should be 4 blocks with spacing between the yellow block and the dashed blue border. However, the spacing should be positioned as follows (from left example to right example):
+
+- On top
+- On right side
+- At bottom
+- On left side
+
+_NOTE: The amount of space should be the same in each example (16px)_
+
+<Preview>
+	<Story name="Sides">
+		<Sides />
+	</Story>
+</Preview>
+
+### Shorthands
+
+Should render three examples with the following properties (fron left to right):
+
+- Should have the same spacing all around (16px)
+- Should have the same spacing on top and at the bottom. Left and right side should not have any spacing.
+- Should have the same spacing on left and at the right side. Should not have any spacing on top or at the bottom.
+
+<Preview>
+	<Story name="Shorthands">
+		<Shorthands />
+	</Story>
+</Preview>
+
+### Sizes
+
+None of these examples should have a blue border around them. The first example should stretch all the way to the end of the available space, whereas the second example should not stretch at all (just covering the `Hello World!` text). The last example should be set to a fixed width (100px), this means that there should be about 15px of extra space on the right-hand side of the `Hello World!` text.
+
+<Preview>
+	<Story name="Sizes">
+		<Sizes />
+	</Story>
+</Preview>
+
+### Centered
+
+Example should be exactly the same fixed height and width (300px). There should be a yellow block with `Hello World!` at the exact vertical and horizontal position of the example.
+
+<Preview>
+	<Story name="Centered">
+		<Centered />
+	</Story>
+</Preview>
+
+### Negative
+
+Dashed blue border should be inside of yellow block on right and left hand side (instead of against or outside yellow block).
+
+<Preview>
+	<Story name="Negative">
+		<Negative />
+	</Story>
+</Preview>
+

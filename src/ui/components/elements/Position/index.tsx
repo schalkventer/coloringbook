@@ -4,15 +4,7 @@ import * as types from './types';
 import { SPACING } from '../../../tokens';
 
 const createGutterValues = (props: types.Gutters): types.ProcessedGutters => {
-  const {
-    all = null,
-    horizontal = null,
-    vertical = null,
-    top = null,
-    left = null,
-    right = null,
-    bottom = null,
-  } = props;
+  const { all, horizontal, vertical, top, left, right, bottom } = props;
 
   if (all) {
     return {
@@ -97,10 +89,10 @@ export const Component: FC<types.Props> = (props: types.Props): JSX.Element => {
     all = null,
     horizontal = null,
     vertical = null,
-    top = null,
-    left = null,
-    right = null,
-    bottom = null,
+    top = 'none',
+    left = 'none',
+    right = 'none',
+    bottom = 'none',
   } = props;
 
   const positions = createGutterValues({ all, horizontal, vertical, top, left, right, bottom });
