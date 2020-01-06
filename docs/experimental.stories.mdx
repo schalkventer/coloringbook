@@ -1,0 +1,17 @@
+import { Meta, Preview } from "@storybook/addon-docs/blocks";
+
+<Meta title="👽 Experimental/Overview" />
+
+# Experimental Components
+
+**All component start out in the "experimental" category, and only move to another category once all their visual tests and documentation are present. Likewise, components that have been changed, but their documentation hasn't been updated yet are moved back to "experimental".**
+
+Humans are [notoriously bad at predicting the future](https://qz.com/1752106/why-are-humans-so-bad-at-predicting-the-future/). It is in the spirit of the former, and the principles of [Agile software management](https://en.wikipedia.org/wiki/Agile_software_development) that this category exists as a space where new components can be quickly iterated on, broken up, combined or completely refactored without commiting to an API or set of use-cases yet.
+
+Components in "experimental" should always considered as unstable and in flux. Furthermore, their documentation should not be considered as authoritative and it is advised that they should ideally be used when in constant correspondance with their author or the rest of the team.
+
+## Other Categories
+
+- **Element Components**: Components grouped under "elements" represent common, non-product specific user-interface elements. This means that these usually make sense outside of the contenxt of this specific webapp/website.
+- **Custom Components**: Discreet, modular UI sections that are product-specific. This means that these components usually won't make sense when used outside of the context of this specific webapp/website.
+- **View Components**: Components that render entire views (as defined by the [MVVM pattern](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel)). "View" components can be thought of as templates that are used to generate entire pages.

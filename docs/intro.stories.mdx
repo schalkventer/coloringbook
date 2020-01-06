@@ -5,9 +5,8 @@ import GitHubButton from 'react-github-btn'
 
 # 📙 Coloringbook
 
-`0.0.1`
+`0.0.2`
 
-**An opinionated, batteries-included UI framework built on Storybook and React.**
 
 <GitHubButton 
   href="https://github.com/schalkventer/coloringbook" 
@@ -19,3 +18,16 @@ import GitHubButton from 'react-github-btn'
 >
   Star
 </GitHubButton>
+
+**An opinionated, batteries-included UI framework built on Storybook and React.**
+
+
+## Usage
+
+This instance of Storybook is generated from and meant to serve as the primary development platform for all code in the `src/ui` folder. It is initialised by calling `npm run ui:start` (or `yarn ui:start`). 
+
+Alternatively, `npm run webapp:start` or `yarn webapp:start` should only be used when working on code in the `src/webapp` folder. This means that the contents of the `src/ui` folder is kept intentionally decoupled (and agnostic) from the data and context that it will be used in. This seperation allows us to easily test and develop the user-interface without bootstrapping a testing database or emulating production functionality. Alternatively, the `src/webapp` folder should exclusively be used for the generation of data and bootstrapping of views (with generated data) from the `src/ui/components/views` folder. *This means that no user-interface specific code should be written inside `src/webapp`.
+
+_Note that both above commands can also be run via the following shortcuts: `npm run ui` and `npm start` (and their yarn alternatives)._
+
+Documentation for code in `src/webapp` is generated via [Type Doc](https://typedoc.org/) and can be viewed by running `npm run webapp:docs:start` (or `yarn webapp:docs:start`). However, note that it's development environment is seperate from its this documentation via `npm start`.

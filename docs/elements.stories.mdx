@@ -1,0 +1,16 @@
+import { Meta, Preview } from "@storybook/addon-docs/blocks";
+
+<Meta title="⚙️ Elements/Overview" />
+
+# Element Components
+
+**Components grouped under "elements" represent common, non-product specific user-interface elements. This means that these usually make sense outside of the contenxt of this specific webapp/website.**
+
+You can think of these as user interface [primitives](https://en.wikipedia.org/wiki/Language_primitive). This means that (in theory) these components should be able to re-used on any other webapp or website. The implication being that these components are usually highly generic and often replicate (or extend) the behaviour of a single or multiple [HTML elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element). For example `<Title />` covers `<h1>`, `<h2>`, etc, while `<Button />` covers both `<button>` and `<a>`, whereas 
+
+## Other Categories
+
+- **Custom Components**: Discreet, modular UI sections that are product-specific. This means that these components usually won't make sense when used outside of the context of this specific webapp/website.
+- **View Components**: Components that render entire views (as defined by the [MVVM pattern](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel)). "View" components can be thought of as templates that are used to generate entire pages.
+- **Experimental Components**: All component start out in the "experimental" category, and only move to another category once all their visual tests and documentation are present. Likewise, components that have been changed, but their documentation hasn't been updated yet are moved back to "experimental".
+
