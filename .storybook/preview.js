@@ -24,7 +24,7 @@ const ORDER = [
 
 const theme = create({
 	base: 'light',
-  brandTitle: '📙 Coloringbook — 0.0.1',
+  brandTitle: '📙 Coloringbook 0.0.2',
 });
 
 addParameters({ 
