@@ -5,6 +5,7 @@
     "@material-ui/core": "^4.2.1",
     "@material-ui/icons": "^3.0.1",
     "axios": "^0.19.0",
+    "lodash": "^4.17.15",
     "polished": "^3.4.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -15,15 +16,21 @@
     "styled-components": "^4.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "webapp:start": "react-scripts start",
+    "webapp:build": "react-scripts build",
+    "webapp:docs": "npm run webapp:docs:build && serve ./typedoc-dist && start https://localhost:5000",
+    "webapp:docs:build": "typedoc --out docs --ignoreCompilerErrors --out ./typedoc-dist --name \"Coloringbook 0.0.2\" --theme \"minimal\" --readme ./docs/webapp.md ./src/webapp",
     "ui": "npm run ui:start",
     "ui:start": "npm run test:build && start-storybook -p 9009 -s public",
-    "ui:build:": "npm run test:build && build-storybook -s public",
+    "ui:build": "npm run test:build && build-storybook -s public -o storybook-dist",
+    "ui:deploy": "npm run ui:build && netlify --deploy --dir=storybook-dist --prod",
+    "ui:deploy:skip-build": "netlify deploy --dir=storybook-dist --prod",
     "test": "npm run test:start",
-    "test:start": "jest --verbose --coverage --passWithNoTests",
+    "test:start": "jest --verbose --passWithNoTests",
     "test:build": "jest --silent --passWithNoTests --bail=100 --json --outputFile=./public/jest-results.json || (exit 0)",
-    "test:reset-all-snapshots": "jest -u"
+    "test:reset-all-snapshots": "jest -u",
+    "start": "npm run webapp:start",
+    "build": "npm run webapp:build"
   },
   "devDependencies": {
     "@storybook/addon-a11y": "^5.3.0-rc.0",
@@ -36,7 +43,9 @@
     "@storybook/addons": "^5.3.0-rc.0",
     "@storybook/preset-create-react-app": "^1.5.0",
     "@storybook/react": "^5.3.0-rc.0",
+    "@testing-library/react": "^9.4.0",
     "@types/jest": "^24.0.24",
+    "@types/lodash": "^4.14.149",
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
@@ -64,15 +73,18 @@
     "husky": "^3.1.0",
     "jest-styled-components": "^6.3.4",
     "lint-staged": "^9.5.0",
+    "netlify-cli": "^2.25.0",
     "prettier": "^1.19.1",
     "react-scripts": "3.3.0",
     "react-test-renderer": "^16.12.0",
+    "serve": "^11.3.0",
     "stylelint": "^12.0.0",
     "stylelint-config-recommended": "^3.0.0",
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-no-unsupported-browser-features": "^4.0.0",
     "stylelint-processor-styled-components": "^1.9.0",
     "ts-jest": "^24.2.0",
+    "typedoc": "^0.15.6",
     "typescript": "~3.7.2"
   }
 }
