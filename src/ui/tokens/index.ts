@@ -1,4 +1,4 @@
-import * as types from './index.types';
+import * as types from './types';
 
 const COLORS = {
   grey: {
@@ -16,6 +16,7 @@ const COLORS = {
 };
 
 const SPACING = {
+  none: '0',
   tiny: '2px',
   small: '8px',
   standard: '16px',
@@ -33,6 +34,8 @@ const TYPOGRAPHY = {
   fonts: {
     roboto: 'Roboto, Arial, Helvetica, sans-serif',
     verdana: 'Verdana, Geneva, sans-serif',
+    storybook:
+      '"Nunito Sans",-apple-system,".SFNSText-Regular","San Francisco",BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;',
   },
   sizes: {
     tiny: '9px',

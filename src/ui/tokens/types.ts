@@ -2,11 +2,11 @@ export type colorSwatch = 'grey' | 'blue';
 
 export type colorShade = 'light' | 'standard' | 'dark';
 
-export type spacing = 'tiny' | 'small' | 'standard' | 'large' | 'huge';
+export type spacing = 'none' | 'tiny' | 'small' | 'standard' | 'large' | 'huge';
 
 export type edge = 'subtle' | 'visible' | 'circle';
 
-export type font = 'roboto' | 'verdana';
+export type font = 'roboto' | 'verdana' | 'storybook';
 
 export type fontSize = 'tiny' | 'small' | 'standard' | 'large' | 'huge';
 
