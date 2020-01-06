@@ -3,4 +3,4 @@ import Footer from './Footer';
 import Layout from './Layout';
 import * as types from './types';
 
-export { Header, Footer, Layout };
+export { Header, Footer, Layout, types };
