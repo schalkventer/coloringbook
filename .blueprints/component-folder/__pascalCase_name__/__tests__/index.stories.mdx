@@ -1,7 +1,8 @@
-import { Meta, Story, Preview, Props } from "@storybook/addon-docs/blocks";
-import Component from "..";
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+import {{pascalCase name}} from ''..';
+import { getUnitTestData } from '../../../../helpers/storybook';
 import { Tests } from '../../../elements';
-import { Demo, Default, Minimal, Directions, Change } from "./stories";
+import { Demo, Default } from "./stories";
 
 <!-- ⚙️ Elements -->
 <!-- 🔨 Custom -->
@@ -14,7 +15,7 @@ import { Demo, Default, Minimal, Directions, Change } from "./stories";
 ...
 
 - [API](#api)
-- [Browser Compatability](#browser-compatability)
+- [Browser Compatability](#browser-compatibility)
 - [Unit Tests](#unit-tests)
 - [Visual Tests](#visual-tests)
 
@@ -26,7 +27,7 @@ import { Demo, Default, Minimal, Directions, Change } from "./stories";
 
 ## API
 
-<Props of={Component} />
+<Props of={ {{pascalCase name}} } />
 
 ## Browser Compatibility
 
@@ -37,7 +38,13 @@ import { Demo, Default, Minimal, Directions, Change } from "./stories";
 
 ## Unit Tests
 
-<Tests category="Experimental" name="{{pascalCase name}}"/>
+### Snapshots
+
+<Tests getData={getUnitTestData({ category: 'Experimental', name: '{{pascalCase name}}', helpers: true })} />
+
+### Helper Tests
+
+<Tests getData={getUnitTestData({ category: 'Experimental', name: '{{pascalCase name}}', helpers: true })} />
 
 ## Visual Tests
 
