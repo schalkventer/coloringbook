@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UI Components Elements Tests snapshots Default 1`] = `
+.c0 {
+  font-size: 14px;
+  font-family: "Nunito Sans",-apple-system,".SFNSText-Regular","San Francisco",BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+<ul>
+  <li
+    className="c0"
+  >
+    ...
+     
+     
+    
+  </li>
+</ul>
+`;

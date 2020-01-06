@@ -1,0 +1,38 @@
+import { Meta, Story, Preview, Props } from "@storybook/addon-docs/blocks";
+import Component from "..";
+import { Demo, Default, Minimal, Directions, Change } from "./stories";
+
+<!-- ⚙️ Elements -->
+<!-- 🔨 Custom -->
+<!-- 📺 Views -->
+
+<Meta title="👽 Experimental/Layout" />
+
+# Layout
+
+...
+
+- [API](#api)
+- [Tests](#tests)
+
+<Preview>
+	<Story name="Demo">
+		<Demo />
+	</Story>
+</Preview>
+
+## API
+
+<Props of={Component} />
+
+## Tests
+
+### Default
+
+...
+
+<Preview>
+	<Story name="Default">
+		<Default />
+	</Story>
+</Preview>
